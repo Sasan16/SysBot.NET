@@ -265,7 +265,7 @@ namespace SysBot.Pokemon
                     switch (Mode)
                     {
                         case EncounterMode.VerticalLine:
-                            await SetStick(LEFT, 0, -30000, 2_400, token).ConfigureAwait(false);
+                            await SetStick(LEFT, 0, -1222, 2_400, token).ConfigureAwait(false);
                             await SetStick(LEFT, 0, 0, 0_100, token).ConfigureAwait(false); // reset
 
                             // Quit early if we found an encounter on first sweep.
